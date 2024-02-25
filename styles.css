@@ -1,0 +1,56 @@
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size {
+    transform: scale(1.8);
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid brown 1px;
+}
+
+.top>* {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.scoretitle {
+    color: green;
+}
+
+.scoretitle>* {
+    margin: 5px;
+}
+
+.time {
+    color: red;
+}
+
+.time>* {
+    margin: 5px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
