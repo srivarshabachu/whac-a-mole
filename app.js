@@ -42,9 +42,5 @@ function countDown() {
         currentTime = 60;
         score = 0;
     }
-    time.classList.add('size')
-    setTimeout(() => {
-        time.classList.remove('size');
-    }, 1000);
 }
 let countDownTimer = setInterval(countDown, 500)
